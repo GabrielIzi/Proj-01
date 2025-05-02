@@ -1,0 +1,11 @@
+CREATE TABLE Produtos(
+    id int IDENTITY(1,1) PRIMARY KEY,
+    nome NVARCHAR(255),
+    descricao NVARCHAR(MAX),
+    preco DECIMAL(18,2),
+    image_url NVARCHAR(2083)
+)
+
+sqllab001-dio
+GabIZIAdmin10294550
+$#$KBPs90's@GZ16!16LeftRightUpDown
